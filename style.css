@@ -1,0 +1,36 @@
+.calculator-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Calculator{
+    border:2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    height:250px;
+    width:250px;
+
+}
+#number-input{
+    width:246px;
+    height:27px;
+    
+
+}
+#result{
+    width:246px;
+    height: 27px;
+}    
+.cal-bottons{
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    /* margin-left: 10px; */
+    
+
+}
+.cal-bottons:hover{
+    background-color: yellow;
+}
